@@ -1,0 +1,16 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {background-color: violet}
+h1,h2,h3 {text-align: center}
+#wrapper {width: 80%; margin: auto; background-color: pink; box-shadow: 5px 2px black } 
+div {width: 90%; margin: auto}
+.itembox {border: 10px; border-radius: 60px; box-shadow: 6px 6px black; background-color: purple; color: white; padding: 10px}
+.favorite {border: 20px; border-radius: 50px; box-shadow: 6px 6px black; background-color: yellow; color: blue; padding: 10px}
+ul {background-color: lightgray; list-style-type: square}
+ul li {background-color: gray; list-style-type: square}
+ol {background-color: orange; list-style-type: decimal-leading-zero}
+ol li {background-color: red; list-style-type: decimal-leading-zero}
+nav li {float: left; list-style-type: none; padding: 5px; background-color: lightblue; font-size: 15px}
+a {display: block; color: blue; text-align: center;  list-style-type: none; padding: 5px; background-color: lightblue; font-size: 15px}
