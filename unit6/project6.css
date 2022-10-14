@@ -1,0 +1,14 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+main {background-color: red; color: yellow}
+.image {background-image: url("shuckleluv.jpg"); height: 300px; width: 100%; background-size: cover}
+body {background-image: url("background.png"); background-size: cover}
+#wrapper {width:60%; margin: auto; margin-top: 30px;}
+li {list-style-image: url("plump.png")}
+.specialborder { 
+  border: 20px solid transparent;
+  padding: 0px;
+  border-image: url(border.webp) 40 round;
+}
