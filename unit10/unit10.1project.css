@@ -1,0 +1,6 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+table, tr, td {border: 3px solid blue; border-collapse: collapse; padding: 5px; margin: auto; font-size: 25px; width: 75%; text-align: center; background-color: aqua}
+p{font-size: 15px}
