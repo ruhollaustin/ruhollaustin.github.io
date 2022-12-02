@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="project11.1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h3>Survey</h3>
+  <hr>
+  <form action="http://webdevbasics.net/scripts/demo.php" method="post">
+    <label for="user">Username:</label><br>
+    <input type="text" id="user" name="user" maxlength="30"><br>
+    <label for="pword">Password:</label><br>    
+    <input type="password" id="pword" name="pword"><br><br>
+
+    <label>Select your favorite month:</label><br>
+    <input type="radio" id="Jan" name="Jan">
+    <label for="Jan">January</label> <br>
+    <input type="radio" id="Feb" name="Feb">
+    <label for="Feb">February</label> <br>
+    <input type="radio" id="Mar" name="Mar">
+    <label for="Mar">March</label> <br>
+    <input type="radio" id="Apr" name="Apr">
+    <label for="Apr">April</label> <br>
+    <input type="radio" id="May" name="May">
+    <label for="May">May</label> <br>
+    <input type="radio" id="Jun" name="Jun">
+    <label for="Jun">June</label> <br>
+    <input type="radio" id="Jul" name="Jul">
+    <label for="Jul">July</label> <br>
+    <input type="radio" id="Aug" name="Aug">
+    <label for="Aug">August</label> <br>
+    <input type="radio" id="Sep" name="Sep">
+    <label for="Sep">September</label> <br>
+    <input type="radio" id="Oct" name="Oct">
+    <label for="Oct">October</label> <br>
+    <input type="radio" id="Nov" name="Nov">
+    <label for="Nov">November</label> <br>
+    <input type="radio" id="Dec" name="Dec">
+    <label for="Dec">December</label> <br><br>
+
+    <label for="social">Select your favorite social media site</label><br>
+    <select id="social" name="social">
+      <option value="Facebook">Facebook</option>
+      <option value="Twitter">Twitter</option>
+      <option value="Snapchat">Snapchat</option>
+      <option value="Instagram">Instagram</option>
+    </select><br><br>
+
+    <fieldset>
+      <legend>Shipping Address</legend>
+      <label for="ShipAd1">Address Line 1</label>
+      <input type="text" id="ShipAd1" name="ShipAd1"><br>
+      <label for="ShipAd2">Address Line 2</label>
+      <input type="text" id="ShipAd2" name="ShipAd2"><br>
+      <label for="City">City</label>
+      <input type="text" id="City" name="City" size="6">
+      <label for="State">State</label>
+      <input type="text" id="State" name="State" size="1">
+      <label for="ZIP">ZIP</label>
+      <input type="text" id="ZIP" name="ZIP" size="4">
+      
+    </fieldset><br>
+    
+    <input type="hidden" id="userid" name="userid">
+
+    <input type="image" src="button_submit.png" alt="submit" height="50" width="100"><br><br>
+    <a href="unit11project.html">Home Page</a>
+  </form><br>
+
+  
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
